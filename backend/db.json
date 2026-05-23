@@ -1,0 +1,15 @@
+{
+  "todos": [
+    {
+      "title": "Ey chamo",
+      "completed": true,
+      "id": "QCU92roKCHg"
+    },
+    {
+      "title": "yury ",
+      "completed": true,
+      "id": "QZ4blcTwd9Y"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

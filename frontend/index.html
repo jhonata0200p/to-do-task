@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to_to</title>
+  </head>
+  <body class="p-8 h-screen">
+    <div id="app" class="">
+      <h1>LISTAS</h1>
+      <form id="form" class="flex gap-5">
+        <label for="">Nombre de la tarea</label>
+        <input
+          type="text"
+          placeholder="ingrese el nombre"
+          class="border border-red-400 rounded"
+          name="taskName"
+        />
+
+        <button class="cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </button>
+      </form>
+      <div id="table_" class="pt-5"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
